@@ -1,0 +1,17 @@
+Blackbox testing:
+Download aplikasi yang akan diuji di:
+ https://github.com/bernardvery/Genap1718
+ folder: Testing_Implementasi-Pengujian_Sistem/Praktek/
+ file :  smkneka.zip
+
+Instruksi instalasi:
+1. Buat database 'psb' melalui phpmyadmin
+	http://localhost:8080/phpmyadmin
+2. import database menggunakan file sql (folder database)
+   --> ppdb-dengan-data-contoh.sql
+3. ekstract file "smkneka.zip" dan copy ke folder web root
+   c:\xampp\htdocs\smkneka
+4. Edit file koneksi.php (folder connection)
+   $password_koneksi = "";
+5. Akses aplikasi menggunakan url: 
+   http://localhost:8080/smkneka
